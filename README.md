@@ -1,13 +1,14 @@
 # WordChain
 
-Description of the laboratory:
-Two participants play a linguistic game. At the beginning of the game there is a list of N words. The first player chooses an arbitrary word w1 and deletes one arbitrary letter from it so to get another word w2 from this list. After that the course passes to another player, and he tries to do the same with the word w2. The game ends in one of two cases:
+# Description of the laboratory:
+Two participants play a linguistic game. At the beginning of the game there is a list of N words. The first player chooses an arbitrary word w1 and deletes one arbitrary letter from it so to get another word w2 from this list. After that the course passes to another player, and he tries to do the same with the word w2.
+The game ends in one of two cases:
 • There is one word left.
 • It is impossible to delete any letter so as to get another word from the dictionary.
 
 Determine the length of the maximum chain that can be achieved in this game given words.
 
-Problem solving:
+# Problem solving:
 In line 8 of his laboratory, a dictionary has been created, which is currently empty. The variable "maximum chain of letters" was also created, which was assigned zero at the beginning.
 
 Used the loop "for" to search for an available word in the dictionary of words. Variable iterator_of_start = 0, because we start the game with the first word in the line. Variable current_max_word = 1, because we started the selection with a random word.
@@ -20,7 +21,7 @@ Line 25 has a function that is designed to read words from a file. This_date = [
 
 Print(largest_string_chain(words)).
 
-*Using:
+# Using:
 
 Programming language: Python.
 

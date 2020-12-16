@@ -1,7 +1,9 @@
 # WordChain
 
 Description of the laboratory:
-Two participants play a linguistic game. At the beginning of the game there is a list of N words. The first player chooses an arbitrary word w1 and deletes one arbitrary letter from it so to get another word w2 from this list. After that the course passes to another player, and he tries to do the same with the word w2. The game ends in one of two cases: • There is one word left. • It is impossible to delete any letter so as to get another word from the dictionary.
+Two participants play a linguistic game. At the beginning of the game there is a list of N words. The first player chooses an arbitrary word w1 and deletes one arbitrary letter from it so to get another word w2 from this list. After that the course passes to another player, and he tries to do the same with the word w2. The game ends in one of two cases:
+• There is one word left.
+• It is impossible to delete any letter so as to get another word from the dictionary.
 
 Determine the length of the maximum chain that can be achieved in this game given words.
 

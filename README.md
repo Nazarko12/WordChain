@@ -15,7 +15,7 @@ Used the loop "for" to search for an available word in the dictionary of words. 
 
 In the "while" cycle:
 
-As long as the variable iterator_of_start <len (available_word) :, all possible subsequent words formed from the length of the existing word will be written. By going through all the possible options, you can achieve the maximum length of this chain of words. The place where the word should be located depends on its length. This is how a kind of deletion of one letter in a word is formed to create another word in the chain. After all, the word with the most letters will be the first in the list. The last index will correspond to the smallest word.
+As long as the variable iterator_of_start < len (available_word), all possible subsequent words formed from the length of the existing word will be written. By going through all the possible options, you can achieve the maximum length of this chain of words. The place where the word should be located depends on its length. This is how a kind of deletion of one letter in a word is formed to create another word in the chain. After all, the word with the most letters will be the first in the list. The last index will correspond to the smallest word.
 
 Line 25 has a function that is designed to read words from a file. This_date = [] is an array of specified letters. The loop assumes the moment when the word is equal to an empty line. Then we leave the cycle and add this word to the end of the list.
 
